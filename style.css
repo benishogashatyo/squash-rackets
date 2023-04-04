@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v78/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-flex;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    vertical-align: middle;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #263238;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+li, ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    background: #000;
+    padding: 5px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+}
+
+.title {
+    color: #f5f5f5;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+input, select {
+    outline: none;
+    background: rgba(245, 245, 245, 0.5);
+    border: rgba(38, 50, 56, 0.5) solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    caret-color: #263238;
+}
+
+input:hover, select:hover {
+    background: #f5f5f5;
+    animation-duration: 250ms;
+}
+
+button {
+    outline: none;
+    background: #263238;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+button:hover {
+    background: #32383e;
+}
+
+.card {
+    cursor: pointer;
+    margin: 5px;
+    padding: 25px;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
